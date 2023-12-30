@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+ padding: 1rem;
+}
+
+img.fundo{
+    width: 1380px;
+    height: 610px;
+    position: relative;
+}
+
+
+.duvidas {
+    position: absolute;
+    color: white;
+        bottom: 250px;
+        left: 40px;
+        font-size: 15px;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 25px;
+}
+
+
+.form {
+width: 500px;
+    min-height: 500px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 500px;
+    margin: 80px;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;    
+    border-radius: 28px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px;
+    
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 420px;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+textarea {
+width: 410px;
+height: 120px;
+margin: 10px;
+}
+
+input {
+    width: 410px;
+    padding: 15px;
+}
+.form-control.error textarea {
+border: 3px solid #DB5A5A;
+}
+
+.form-control.success textarea {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+@media(max-width: 1200px){
+    .fundo .container{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .fundo .container {
+        width: 700px;
+    }
+}
+
+@media(max-width: 768px) {
+    .fundo .container {
+        width: 400px;
+    }
+}
+
+@media(max-width: 425px){
+    .fundo .container{
+        width: 320px;
+        }
+}
+
+
+

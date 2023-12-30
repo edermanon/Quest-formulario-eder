@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest JS intemediario</title>
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    
+
+  </head>
+  <body>
+    <img class="fundo" src="./src/image/bg-repeat.jpg" class="fundo" alt="image de fundo" />
+    <div class="duvidas">
+      <h1>
+        FICOU COM DÚVIDA?<br />
+        NOS MANDE UMA MENSAGEM!
+      </h1>
+      <br />
+      <h3>
+        caso tenha ficado com qualquer duvida <br />
+        basta nos mandar uma mensagem e <br />
+        entraremos em contato em menos de 24h.
+      </h3>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <form class="form" id="form">
+          <div class="form-control">
+            <label for="username"></label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Nome completo*"
+            />
+            <i><img src="./src/image/success-icon.svg" alt="" /></i>
+            <i><img src="./src/image/error-icon.svg" alt="" /></i>
+            <br>
+            <small>campo obrigatorio</small>
+          </div>
+
+          <div class="form-control">
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email*" />
+            <i><img class="img-success" src="./src/image/success-icon.svg" alt="" /></i>
+            <i><img class="img-error" src="./src/image/error-icon.svg" alt="" /></i>
+            <br>
+            <small>campo obrigatorio</small>
+          </div>
+
+          <div class="form-control">
+            <label for="phone"></label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone" 
+              placeholder="Telefone*"
+            />
+            <i><img src="./src/image/success-icon.svg" alt="" /></i>
+            
+            <i><img src="./src/image/error-icon.svg" alt="" /></i>
+            <br><small>campo obrigatorio</small>
+          </div>
+
+          <div class="form-control">
+            <label for="message"></label>
+            <textarea name="message" id="message" placeholder=" Mensagem* "></textarea>          
+            <i><img src="./src/image/success-icon.svg" alt="" /></i>
+            <i><img src="./src/image/error-icon.svg" alt="" /></i>
+            <br>
+            <small>campo obrigatorio</small>
+            <br>
+            <p><strong>*Campos obrigatórios</strong></p>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./fomulario.js"></script>
+  </body>
+</html>
